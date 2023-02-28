@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
+
+body {
+    background-color: #6e6b65;
+    font-family: 'Nunito', sans-serif;
+}
+
+.contenedor-menu {
+    border: 5px solid #e1beee;
+    background-color: rgb(155, 151, 226);
+    margin-top: 60px;
+    margin-left: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+img {
+    border-radius: 150px;
+    width: 170px;
+    height: 170px;
+    padding: 35px;
+}
+
+.contenedor-flex {
+    background-color: rgb(155, 151, 226);
+    margin-left: 200px;
+    width: 350px;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto-items {
+    margin-bottom: 50px;
+    font-size: 15px;
+    list-style: none;
+    line-height: 30px;
+}
+
+.contenedor-flex2 {
+    background-color: white;
+    height: 1100px;
+    margin-top: -1100px;
+    margin-left: 550px;
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nombre {
+    font-size: 50px;
+    font-weight: 800px;
+}
+
+.items1 {
+    margin-bottom: 45px;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+#items {
+    list-style: outside;
+    font-size: 20px;
+    text-align: left;
+    line-height: 40px;
+}
+
+h1 {
+    margin-top: 1px;
+}
+
+h2 {
+    margin-top: 63px;
+    text-align: center;
+}
+
+#perfil {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.item-perfil {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.perfil {
+    margin-bottom: 30px;
+}
+
+#experiencia {
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.item-experiencia {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.admin {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+#educacion {
+    display: flex;
+    flex-direction: column;
+    margin-left: -20px;
+}
+
+.item-educacion {
+    font-size: 30px;
+}
+
+.edu {
+    margin-top: -9px;
+}
+
+.btn2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+#btn2 {
+    border: 3px solid #75677a;
+    background-color: #bdbdbd;
+    border-radius: 20px;
+    height: 50px;
+    width: 170px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.btn1 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+#btn1 {
+    border: 3px solid #75677a;
+    background-color: #bdbdbd;
+    border-radius: 20px;
+    height: 50px;
+    width: 170px;
+    font-size: 19px;
+    text-align: center;
+}
